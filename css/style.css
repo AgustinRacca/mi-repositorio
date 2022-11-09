@@ -1,0 +1,183 @@
+/* Ventana */
+*{
+    margin: 0%;
+    padding: 0,7%;
+    box-sizing: border-box;
+}
+
+                                       /* INDEX */
+/* Logo */
+.logo {
+    padding: 2%;
+    display: inline-block;
+    justify-content: left;
+}
+
+/* Header */
+#header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(204, 174, 98,1.0);;
+}
+
+/* Menu */
+.navegacion {
+    display: inline-block;
+    margin-left: auto;
+    font-style: AntonRegular;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+}
+
+.menu > li {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    text-align: center;
+    color: brown;
+    background-color: burlywood;
+}
+
+.menu > li >a:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+                                        /* INDEX */
+/* Index Imagen */
+.tablones {
+    margin: 4% 4% 2% 4%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+/* Index Titulo */
+.titulo1 {
+    color: black;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+
+                                       /* CONTACTO */
+
+.imagencontacto {
+    display: flex;
+    justify-content: left;
+    margin: 2%;
+}
+
+.tituloprincipal {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0% 0% 0%;
+    font-size: 40px;
+    color: brown;
+    background-color: rgba(204, 174, 98,1.0);;
+}
+
+/* Formulario */
+.fieldsetForm{
+    margin:  0% 0% 0% 30%;
+    width: 0%;
+    border-color: brown;
+    color: black;
+    background-color: rgba(204, 174, 98,1.0);
+    display: inline-block;
+}
+
+                                       /* EMPRESA */
+.divEmpresa > div {
+    margin: 4% 2% 2% 2%;
+    display: flex;
+    justify-content: left;
+}
+
+.divIframe {
+    margin: 0% 15%;
+}
+
+.divParrafoempresa {
+    background-color: burlywood;
+}
+
+/* AcercaDe */
+.ImgAcercade {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.divAcercade > p {
+    padding: 0% 1%;
+    background-color: burlywood;
+    text-align: center;
+}
+
+                                        /* TIENDA */
+    .tituloSec {
+        margin: 2%;
+    }
+
+    .parrafoProductos {
+        margin: 2%;
+        background-color: burlywood;
+    }
+                                        
+.muebles {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.imgmueble {
+    margin: 2% 9%;
+    border: 1px solid brown;
+    border-radius: 1%;
+}
+
+.parrafoMueble {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.button{
+    margin: 2% 2%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: greenyellow;
+    text-decoration: none;
+}
+
+/* Footer */
+#footer {
+    background-color:rgba(204, 174, 98,1.0);
+    margin-top: 1%;
+    
+}
+
+.footeralldiv > p {
+    display: flex;
+    justify-content: center;
+}
+
+.footeralldiv > div {
+    display: flex;
+    justify-content: center;
+}
+
+.footeralldiv > h6{
+    display: flex;
+    justify-content: center;
+}
